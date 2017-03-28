@@ -4,25 +4,37 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Add A New Customer</title>
+        <link rel="stylesheet" type="text/css" href="newcss.css"/>
     </head>
     <body>
         <h1>Add A New Customer</h1>
         
         <form name="addForm" action="addCustomer" method="get">
-            
-            <label>Customer Name:</label>
-            <input type="text" name="name" value=""/>
-            <br>
-            <label>Email Address:</label>
-            <input type="text" name="email" value=""/>
-            <br>
-            <label>Age:</label>
-            <input type="text" name="age" value=""/>
-            <br>
-            <label>Favorite Brand:</label>
-            <input type="text" name="brand" value=""/>
-            <br>
+            <table>
+                <tbody>
+                <tr>
+            <td>Customer Name:</td>
+            <td><input type="text" name="name" value=""/></td>
+                <br></tr>
+                
+                <tr>
+            <td>Email Address:</td>
+            <td><input type="text" name="email" value=""/></td>
+                <br></tr>
+                
+                <tr>
+            <td>Age:</td>
+            <td><input type="text" name="age" value=""/></td>
+                <br></tr>
+                
+                <tr>
+            <td>Favorite Brand:</td>
+            <td><input type="text" name="brand" value=""/></td>
+                <br></tr>
+                
             <input type="submit" name="submit" value="Submit" />
+            </tbody>
+            </table>
         </form>
     </body>
 </html>

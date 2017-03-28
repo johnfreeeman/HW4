@@ -4,6 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>My Customers</title>
+        <link rel="stylesheet" type="text/css" href="newcss.css"/>
     </head>
     <body>
         <h1>My Customers Database</h1>

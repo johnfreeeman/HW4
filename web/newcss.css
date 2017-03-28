@@ -1,0 +1,8 @@
+h1{text-align:center; font-weight:bold; color:black;}
+body{background:#D2B48C;}
+table{vertical-align: middle; text-align: center; background-color:#F08080; width:50%; color:#FFFFFF;}
+th{text-align: center; vertical-align: middle; background-color:#FFFF99; color:#696969; padding:25px;}
+td{border:5px solid white; padding:15px;}
+input{text-align: center;}
+a{text-align:center; font-weight:bold;}
+label{vertical-align: middle; text-align: center; background-color: #F08080; width:50%; color:#FFFFFF;}

@@ -4,6 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Customers Database</title>
+        <link rel="stylesheet" type="text/css" href="newcss.css"/>
     </head>
     
     <% String table = (String) request.getAttribute("table");%>
