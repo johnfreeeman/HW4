@@ -12,5 +12,9 @@
     <body>
         <h1>Sanghyeop's Customers</h1>
         <%= table %>
+        
+        <br><br>
+        
+        <a href ="add">Add A New Customer</a>
     </body>
 </html>
