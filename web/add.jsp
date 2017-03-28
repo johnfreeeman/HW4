@@ -20,7 +20,7 @@
             <input type="text" name="age" value=""/>
             <br>
             <label>Favorite Brand:</label>
-            <input type="text" name="color" value=""/>
+            <input type="text" name="brand" value=""/>
             <br>
             <input type="submit" name="submit" value="Submit" />
         </form>
