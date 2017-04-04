@@ -17,5 +17,7 @@
         <br><br>
         
         <a href ="add">Add A New Customer</a>
+        <br><br>
+        <a href="search.jsp">Search Friends</a>
     </body>
 </html>
