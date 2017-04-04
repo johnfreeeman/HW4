@@ -7,10 +7,24 @@
         <link rel="stylesheet" type="text/css" href="newcss.css"/>
     </head>
     <body>
-        <h1>My Customers Database</h1>
-        
-        <a href="read">View All Customers</a>
-        <br><br>
-        <a href="search.jsp">Search Friends</a>
+        <div class="wrap">
+
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+
+            <div class="main">  
+
+                <h1>My Customers Database</h1>
+
+
+                <a href="read">View All Customers</a>
+                <br><br>
+                <a href="search.jsp">Search Customers</a>
+            </div>
+
+            <%@ include file="includes/footer.jsp" %>
+
+        </div>
     </body>
 </html>

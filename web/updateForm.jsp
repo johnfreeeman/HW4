@@ -12,13 +12,19 @@
         
     </head>
     <body>
+        <div class="wrap">
+        
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+            
+            <div class="main">
+            
         <h1>Update A Customer</h1>
         
         <form name="updateForm" action="updateCustomer" method="get">
             
             <table class ="update">
-               
-                
                 <tr>
             <td>Customer ID:</td>
             <td><input type="text" name="id" value="<%= customer.getCustomerID() %>" readonly/></td>
@@ -50,5 +56,9 @@
             <input type="submit" name="submit" value="Update" />
             
         </form>
+                <%@ include file="includes/footer.jsp" %>
+        
+            </div>    
+        </div>
     </body>
 </html>

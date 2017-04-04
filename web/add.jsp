@@ -7,6 +7,12 @@
         <link rel="stylesheet" type="text/css" href="newcss.css"/>
     </head>
     <body>
+        <div class="wrap">
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+        
+        <div class="main">
         <h1>Add A New Customer</h1>
         
         <form name="addForm" action="addCustomer" method="get">
@@ -32,9 +38,15 @@
             <td><input type="text" name="brand" value=""/></td>
                 <br></tr>
                 
-            <input type="submit" name="submit" value="Submit" />
+            
             </tbody>
             </table>
+            <br>
+            <input type="reset" name="reset" value="Clear" />
+            <input type="submit" name="submit" value="Submit" />
         </form>
+        </div>
+        <%@ include file="includes/footer.jsp" %>
+       </div>
     </body>
 </html>
