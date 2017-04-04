@@ -5,3 +5,8 @@ th{text-align: center; vertical-align: middle; background-color:#FFFF99; color:#
 td{border:5px solid white; padding:15px;}
 input{text-align: center;}
 a{text-align:center; font-weight:bold;}
+
+
+.update td{border: none; height:25px; padding:10px; font-weight:bold;}
+
+input[readonly] {background-color:gray;}
